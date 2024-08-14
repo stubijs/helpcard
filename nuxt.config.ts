@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   ssr: true,
   routeRules: {
-    '/card/**': { ssr: false }
-  }
+    '/card/**': {}
+}
 })
