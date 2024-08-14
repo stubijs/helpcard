@@ -2,7 +2,6 @@
 const props = defineProps(['id'])
 
 const { $directus, $readItem } = useNuxtApp();
-console.log($directus);
 
 const { data, status } = await useAsyncData(() => {
     return $directus.request(
